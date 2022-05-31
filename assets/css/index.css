@@ -50,10 +50,7 @@ hr{
     justify-content: space-between;
 }
 
-@viewport{
-    width: device-width;
-    zoom: 1;
-}
+
 
 html{
     font-size: 100%;
@@ -68,6 +65,15 @@ img{
     height: auto;
 }
 
-{
-    
-}
+@media screen and (max-width: 768px) 
+{ 
+    h1 
+    { 
+        font-size : 40px; 
+    } 
+    .colonnedroite
+    {
+        display: none;
+    }
+}     
+
