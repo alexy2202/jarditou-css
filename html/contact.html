@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+<body>
+        <img src="../img/jarditou_logo.jpg" alt="jarditou_logo" title="jarditou_logo" width="300">
+        <br>
+            <p> qualité depuis 70 ans </p>
+        <br>
+    <ul>
+        <a href="../html/index.html" title="accueil">accueil</a>
+        <a href="../html/Page_Tableau.html" title="tableau">tableau</a>
+        <a href="../html/contact.html" title="contact">contact</a>
+    </ul>
+        <br>
+    <img src="../img/promotion.jpg" width=""  alt="promotion">
+    <br>
+    <form action="destination.php" method="post" id="formulaire_contact">
+        <br>
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="nom">nom:</label>
+            <input type="text" name="Nom" id="nom">
+        <br>
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom">
+        <br>
+            <label for="sex">sex:</label>
+            <input type="radio" name="féminin" value="Féminin">
+            féminin
+            <input type="radio" name="masculin" value="Masculin">
+            masculin
+        <br>
+            <label for="date">date de naissance:</label>
+            <input type="date" id="date" name="D.D.N">
+        <br>
+        <label for="votre question">votre question</label>
+        <input type="texte" id="code postal">
+        <br>
+            <label for="Adresse">Adresse:</label>
+            <input type="text" id="Adresse">
+        <br>
+            <label for="Ville">Ville:</label>
+            <input type="text" id="Ville">
+        <br>
+        <label for="Email">Email</label>
+        <input type="text" id="Email">
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Vos demande</legend>
+            <label for="sujet">sujet</label>
+            <select name="sujet" id="sujet">
+                <option value="Veuillez Sélectionnez un sujet">Veuillez Sélectionnez un sujet</option>
+                <option value="mes comande">mes Commande</option>
+                <option value="Question sur un produit">Question sur un produit</option>
+                <option value="Réclamation">Réclamation</option>
+                <option value="Autre">Autre</option>
+            </select>
+            <br>
+                <label for="Votre question">Votre question</label>
+                <textarea name="votre question"  cols="32" rows="3"></textarea>
+            <br>
+                <input type="checkbox" name="J'accepte les condition de ce formulaire" value="J'accepte les condition de ce formulaire">
+                J'accepte les condition de ce formulaire
+            <br>
+                <input type="submit" value="Envoyer">
+                <input type="submit" value="Annuler">
+            <br>
+        </fieldset>
+    </fieldset>
+            <ul>
+                <a href="../html/Mention légale.html">Mention légale</a>
+                <a href="../html/Horaire.html">Horaire</a>
+                <a href="../html/Plan_du_site.html">plan du site</a>
+            </ul>
+</body>
+</html>

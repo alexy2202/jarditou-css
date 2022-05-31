@@ -1,0 +1,25 @@
+div {
+    /* display:  */
+    /* align-items: center; */
+}
+
+ul {
+    height: 2.5em;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    margin: 20px 0 20px 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    margin-right: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
