@@ -1,8 +1,3 @@
-div {
-    /* display:  */
-    /* align-items: center; */
-}
-
 ul {
     display: flex;
     width: 1780px;
@@ -49,8 +44,6 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-
-
 
 html{
     font-size: 100%;
